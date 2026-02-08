@@ -1,0 +1,90 @@
+# Core Dependencies
+python>=3.9
+fastapi==0.104.1
+uvicorn==0.24.0
+streamlit==1.28.1
+pandas==2.1.3
+numpy==1.24.3
+scikit-learn==1.3.2
+tensorflow==2.15.0
+torch==2.1.0
+transformers==4.36.0
+
+# Data Processing
+numpy==1.24.3
+pandas==2.1.3
+openpyxl==3.1.2
+xlrd==2.0.1
+python-multipart==0.0.6
+
+# AI/ML Features
+langchain==0.0.350
+openai==1.3.0
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+xgboost==2.0.0
+lightgbm==4.1.0
+catboost==1.2.2
+
+# Web Scraping
+beautifulsoup4==4.12.2
+requests==2.31.0
+aiohttp==3.9.1
+selenium==4.15.2
+scrapy==2.11.0
+playwright==1.40.0
+
+# Database & Storage
+sqlalchemy==2.0.23
+alembic==1.12.1
+redis==5.0.1
+psycopg2-binary==2.9.9
+pymongo==4.6.0
+
+# Validation & Quality
+pydantic==2.5.0
+email-validator==2.1.0
+phonenumbers==8.13.27
+faker==20.1.0
+validators==0.22.0
+
+# API & Web
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Dashboard
+streamlit==1.28.1
+plotly==5.18.0
+dash==2.14.2
+dash-bootstrap-components==1.5.0
+
+# Utilities
+python-dotenv==1.0.0
+colorama==0.4.6
+tqdm==4.66.1
+loguru==0.7.2
+rich==13.7.0
+
+# Country-Specific
+pycountry==22.3.5
+phonenumbers==8.13.27
+
+# Export & File Handling
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+pyarrow==14.0.1
+pandasql==0.7.3
+
+# Security
+cryptography==41.0.7
+bcrypt==4.1.2
+python-jose[cryptography]==3.3.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+httpx==0.25.2
